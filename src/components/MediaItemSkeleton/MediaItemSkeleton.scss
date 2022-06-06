@@ -1,0 +1,20 @@
+.media-item {
+    &.is-skeleton {
+        position: relative !important;
+
+        .ant-skeleton {
+            position: relative;
+            min-height: 10px !important;
+        }
+    }
+
+    &__skeleton-flex {
+        display: -webkit-flex;
+        flex-wrap: wrap;
+        width: 100%;
+
+        .ant-skeleton {
+            display: inline;
+        }
+    }
+}

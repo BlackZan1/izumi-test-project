@@ -1,0 +1,19 @@
+.flex {
+    display: -webkit-flex;
+}
+
+.items {
+    &-center {
+        align-items: center;
+    }
+
+    // Можно будет добавить другие варианты
+}
+
+.j-content {
+    &-between {
+        justify-content: space-between;
+    }
+
+    // Можно будет добавить другие варианты
+}
